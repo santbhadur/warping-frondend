@@ -154,7 +154,7 @@ const AdminDashboard = () => {
 
           {data.length === 0 && (
             <tr>
-              <td colSpan="6" align="center">No Data Found</td>
+              <td colSpan="6" align="center">No Datas Found</td>
             </tr>
           )}
         </tbody>
@@ -163,4 +163,4 @@ const AdminDashboard = () => {
   );
 };
 
-export default AdminDashboard;
+export default AdminDashboard; 
